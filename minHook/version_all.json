@@ -1,0 +1,81 @@
+[
+    {
+        "version": "1.6.0",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "新增App分享去启动页广告
+新增某hub去启动页和横幅广告"
+    },
+    {
+        "version": "1.5.3",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "修复ES4.4.0.9会员"
+    },
+    {
+        "version": "1.5.2",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "优化代码逻辑
+修复ES4.4.0.6会员失效"
+    },
+    {
+        "version": "1.5.1",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "从JDK8切换至JDK11"
+    },
+    {
+        "version": "1.5.0",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "新增检查更新新版本"
+    },
+    {
+        "version": "1.4.5",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "添加海阔视界hook状态查询，点击负一屏的“海阔视界”"
+    },
+    {
+        "version": "1.4.4",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "更新海阔视界，360加固hook改为加固通杀hook"
+    },
+    {
+        "version": "1.4.3",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "更新海阔视界，添加加固版的hook"
+    },
+    {
+        "version": "1.4.2",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "更新剪映（v9.9.0）VIP"
+    },
+    {
+        "version": "1.4.1",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "更新Es文件管理器（v4.4.0.3）VIP"
+    },
+    {
+        "version": "1.4",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "优化代码，新增剪映（v9.5.0、v9.6.0）VIP"
+    },
+    {
+        "version": "1.3",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "新增ES文件管理器（v4.3.0.1）VIP"
+    },
+    {
+        "version": "1.2",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "新增光速虚拟机（v3.1.0）VIP"
+    },
+    {
+        "version": "1.1",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "修复番茄免费小说（v5.5.9.32）VIP失效"
+    },
+    {
+        "version": "1.0",
+        "downloadUrl": "https://wwab.lanzoue.com/i3MKw0z5pr9c",
+        "changelog": "海阔视界（去除限制过滤）
+番茄免费小说（开启VIP）
+微云（开启VIP）"
+    }
+]
