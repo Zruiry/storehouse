@@ -1,5 +1,12 @@
 [
     {
+        "version": "1.6.1",
+        "downloadUrl": "https://wwab.lanzoue.com/iwyOX11aowgf",
+        "changelog": "新增腾讯手游加速器vvip（未测试）
+修复海阔视界查看hook状态功能
+修复番茄免费小说v5.8.3.32开启vip"
+    },
+    {
         "version": "1.6.0",
         "downloadUrl": "https://wwab.lanzoue.com/ilr0A10t0zsj",
         "changelog": "新增App分享去启动页广告
