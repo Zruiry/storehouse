@@ -1,16 +1,17 @@
 [
     {
         "version": "1.7.1",
-        "downloadUrl": "https://wwamn.lanzouw.com/i4YzN3tnjsoh",
-        "changelog": "优化检测版本更新"
+        "downloadUrl": "https://wwamn.lanzouw.com/iwwAK3tnkc3g",
+        "changelog": "测试检测版本更新"
     },
     {
         "version": "1.7.0",
-        "downloadUrl": "https://wwamn.lanzouw.com/i4YzN3tnjsoh",
+        "downloadUrl": "https://wwamn.lanzouw.com/iwwAK3tnkc3g",
         "changelog": "1、升级到API 102
 2、去掉除番茄之外的所有hook
 3、番茄设置页面添加会员解锁菜单，hook成功添加toast提示
-4、优化代码结构"
+4、优化代码结构
+5、优化检测版本更新"
     },
     {
         "version": "1.6.6",
