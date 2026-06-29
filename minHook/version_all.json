@@ -1,5 +1,10 @@
 [
     {
+        "version": "1.7.1",
+        "downloadUrl": "https://wwamn.lanzouw.com/i4YzN3tnjsoh",
+        "changelog": "优化检测版本更新"
+    },
+    {
         "version": "1.7.0",
         "downloadUrl": "https://wwamn.lanzouw.com/i4YzN3tnjsoh",
         "changelog": "1、升级到API 102
