@@ -1,0 +1,14 @@
+{
+  "versionName": "26.09.02",
+  "versionCode": 260902,
+  "notes": "（端到端通道验证：安装包与 26.09.01 完全相同，仅版本号不同）",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.01/HookAny-release-v26.09.01.apk",
+  "size": 23202112,
+  "sha256": "6f77c0ab3593fd7b9997eab0072443115157ae48dded078e01ece5daac5c50cc",
+  "downloadMirrors": [
+    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.01/HookAny-release-v26.09.01.apk",
+    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.01.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.01.apk",
+    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.01.apk"
+  ]
+}
