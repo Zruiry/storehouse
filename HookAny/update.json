@@ -1,7 +1,7 @@
 {
-  "versionName": "26.09.01",
-  "versionCode": 260901,
-  "notes": "1. 新增检查更新：启动自动检查 + 手动检查，可直接下载并交给系统安装器\n2. 国内网络多源回退：清单支持备用源，下载支持镜像与加速前缀；SHA-256 强制校验\n3. 通用设置：日志自动刷新开关、启动时自动释放 Frida 引擎开关\n4. 聊天页间距收敛；Markdown 支持 GFM 管道表\n5. 液态玻璃配方统一；新增浅色 / 深色 / 自定义主题色\n6. WebDAV 云备份与恢复（含凭证加密与脱敏两种模式）",
+  "versionName": "26.09.02",
+  "versionCode": 260902,
+  "notes": "（通道验证用：仅版本号不同，安装包与 26.09.01 相同）",
   "downloadUrl": "https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.01/HookAny-release-v26.09.01.apk",
   "size": 23185728,
   "sha256": "45b902fc1b63784ec7df028f5b3d10dc0fae05cd7b9d55154934da274c99e665",
