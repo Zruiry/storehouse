@@ -9,8 +9,9 @@
   https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/update.json
   ```
 
-- 安装包**不放进仓库**（避免每次发版把 20+MB 写进 git 历史），而是作为本仓库的 Release 资产
-  上传，清单里的 `downloadUrl` 指向它。
+- 安装包**两条路互为备份**：既作为本仓库的 Release 资产上传（清单 `downloadUrl` 指向它），
+  也在本目录内保留**最新一个**（清单 `downloadMirrors` 里有对应的 raw 地址）。目录内只放最新
+  一个是为了不让 git 历史随版本线性增长；旧版仍可从对应 tag 的 Release 资产取到。
 
 ## 清单字段
 
@@ -29,14 +30,16 @@
 ## 发版步骤
 
 1. 在 HookAny 仓库改版本号、构建、发布 tag，得到 `HookAny-release-v<版本>.apk` 与它的 SHA-256；
-2. 把该 APK 上传为本仓库的 Release 资产：
+2. 把该 APK 上传为本仓库的 Release 资产（tag 用 `hookany-v<版本>`）：
 
    ```powershell
    $env:GH_TOKEN = "<PAT>"
    py -3 tools\publish-release.py hookany-v<版本> <说明 md 路径> <apk 路径> --repo Zruiry/storehouse
    ```
 
-3. 更新本目录的 `update.json`（版本名、版本号、说明、下载地址、大小、SHA-256、镜像列表）。
+3. 更新本目录的 `update.json`（版本名、版本号、说明、下载地址、大小、SHA-256、镜像列表），
+   并把安装包放进本目录（**只留最新一个**），一并提交推送。清单里的 `sha256` 必须与上传的
+   APK **逐字节一致**，发完可拉一次线上清单自检。
 
 ## 加速通道（国内网络）
 
