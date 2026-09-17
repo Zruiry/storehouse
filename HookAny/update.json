@@ -1,14 +1,14 @@
 {
-  "versionName": "26.09.04",
-  "versionCode": 260904,
-  "notes": "1. 规则可以改实例字段了：新增 MODIFY_FIELD 动作（字段路径 / 嵌套对象 / 参数对象 arg0.x），动作值支持 ${arg0} 这类引用，一处改动覆盖下游全部取值路径\n2. Frida 引擎升级到 17.18.0：Android 17 上可正常注入（16.x 被 ROM 策略拒绝），自带 Java bridge，脚本里的 Java.use 照常可用\n3. 规则 / 脚本列表支持多选，批量启用 / 停用（一次写入，不逐条弹授权）\n4. 修复「过一会就弹一次超级用户权限」：注入期间持续心跳，巡检不再起 root 探测（实测同一场景 60 秒 0 次）\n5. 修复从应用配置页进入 AI 后点首页不跳转\n6. 提供商可长按停用：停用的沉到列表底部，且不再出现在聊天页的模型选择里（配置与 Key 都保留）\n7. 设置页重排为通用 / AI / 关于三组，新增关于页（版本、引擎状态、更新源、公开分发地址）\n8. 技能包随包内置：22 个中文技能（含 174 个参考资料）开箱可用，可编辑 / 可停用 / 可删除\n9. 快捷语新增「排查规则没生效」；设置页内置工具清单按用途分组\n10. 弹层底部按钮统一靠右；定价弹层去掉「DeepSeek 作息」一键写入（时段完全自定义）\n11. 余额刷新失败不再清空已有读数；停止键挪到发送键下方；会话支持批量删除",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.04/HookAny-release-v26.09.04.apk",
-  "size": 28588813,
-  "sha256": "71ef925db5713546bdeca8a5133921e1a637bdb32ce8be924ad5a8a9db11fca6",
+  "versionName": "26.09.05",
+  "versionCode": 260905,
+  "notes": "1. 自定义背景图片：可自选一张图片作为应用背景（自动按最长边 2400px 降采样解码，避免大图内存溢出），背景图之上仍叠主题色渐变以保证文字可读\n2. 玻璃效果强度：新增三档（全效果 / 减弱 / 关闭），仅缩放背景模糊半径——关闭后等同普通半透明面板，适合低性能设备或省电场景\n3. 日志按时间筛选：全部时间 / 最近 5 分钟 / 最近 30 分钟 / 最近 1 小时 / 今天\n4. 日志导出与分享：按当前筛选结果生成完整文本并走系统分享（不落盘、不申请存储权限）\n5. 日志跳转：单条日志详情可直接打开对应的规则 / 脚本编辑器；来源已被删除时不显示该入口\n6. 注入系统应用前二次确认：目标为系统应用时，「一键脱壳」会先弹高危确认，确认后才执行注入\n7. 代码浏览「资源」检索显示资源名（R.string.xxx），复制出来的内容仍是裸资源 ID（便于直接建规则）",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.05/HookAny-release-v26.09.05.apk",
+  "size": 28605197,
+  "sha256": "c80560e11ad897586613143e332b20766e2a5ebb6acc3e05b8e14dd5c66cf036",
   "downloadMirrors": [
-    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.04/HookAny-release-v26.09.04.apk",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.04.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.04.apk",
-    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.04.apk"
+    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.05/HookAny-release-v26.09.05.apk",
+    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.05.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.05.apk",
+    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.05.apk"
   ]
 }
