@@ -1,14 +1,14 @@
 {
-  "versionName": "26.09.07",
-  "versionCode": 260907,
-  "notes": "1. 检查更新更可靠：每次启动都会检查（原先 12 小时内只查一次，会把刚发布的版本漏掉）；手动检查只要查出新版本就直接弹窗\n2. 下载新版本的进度显示在通知栏：关掉弹窗、切到别的应用都不会中断，下载完成后点通知即可安装\n3. 已下载的安装包会直接复用（不再重复下载），装完或用不上时自动清理；更新页新增「下载缓存」可查看占用并手动清除\n4. 修复删除提供商后直接退回设置页（应停在提供商列表）\n5. 界面一致化：按钮尺寸与间距统一、弹层底部按钮统一靠右；工具调用与思考内容展开后默认换行、不再截断，并自动滚动到可见位置\n6. MCP 的工具移到「设置 → MCP」里管理（点一行可看参数详情），不再混在对话设置的工具列表里\n7. 背景图片支持调整显示位置与放大缩小，预览按屏幕比例；修复「更换图片无效」\n8. 模型定价新增「按次计费」：按调用次数结算，会话与统计两处口径一致\n9. 关于页版本行去掉内部说明；统计页「按提供商」显示提供商名称而不是内部 ID",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.07/HookAny-release-v26.09.07.apk",
+  "versionName": "26.09.08",
+  "versionCode": 260908,
+  "notes": "1. 展开工具结果、思考过程、技能流程时：内容**向下延伸**，收起时收缩回去，页面不再跳动\n2. 已展开的内容**滚动后不再自动收起**（原先滚出屏幕再滚回来就变回折叠态）\n3. 展开区**默认不换行**（JSON / 日志 / smali 按原样对齐），要按宽度读自然语言时点「换行」\n4. 「换行」按钮放在展开按钮左侧、只在展开时出现；展开与换行按钮缩小到与「完成」标签同尺寸",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.08/HookAny-release-v26.09.08.apk",
   "size": 28621649,
-  "sha256": "dd2bb0f0c245824f21392b6233d9b0b28195949d03eeea7a8640289cbc0155e4",
+  "sha256": "81608e66680cd47120cbd92fa0bb0c71801a9878c031b673581a3166c3ca2222",
   "downloadMirrors": [
-    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.07/HookAny-release-v26.09.07.apk",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.07.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.07.apk",
-    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.07.apk"
+    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.08/HookAny-release-v26.09.08.apk",
+    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.08.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.08.apk",
+    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.08.apk"
   ]
 }
