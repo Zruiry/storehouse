@@ -1,14 +1,14 @@
 {
-  "versionName": "26.09.09",
-  "versionCode": 260909,
-  "notes": "1. 修复：下载更新时点「取消下载」后仍在继续下载——现在取消会立刻断掉连接\n2. 下载中途取消不再被误报成「下载失败」，也不会自动去别的镜像重下一遍\n3. 取消后残留的半成品安装包会被立即清理，不占用存储空间",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.09/HookAny-release-v26.09.09.apk",
-  "size": 28621645,
-  "sha256": "ed0701898592bdfce93963b62eddfa3a9466195e4e13352a167d85c2fe352d90",
+  "versionName": "26.09.10",
+  "versionCode": 260910,
+  "notes": "1. 生成的规则 / 脚本卡片上，「查看全部 / 换行 / 收起」与同行的「复制 / 丢弃 / 保存」统一为同一尺寸\n2. 工具卡片与技能卡片的「展开 / 换行」保持与「完成」标签同高（那两处行首有状态标签）",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.10/HookAny-release-v26.09.10.apk",
+  "size": 28621649,
+  "sha256": "1c984f5ffae290b797214c9508854684275efaeb3caef184f15c098dc870295b",
   "downloadMirrors": [
-    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.09/HookAny-release-v26.09.09.apk",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.09.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.09.apk",
-    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.09.apk"
+    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.10/HookAny-release-v26.09.10.apk",
+    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.10.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.10.apk",
+    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.10.apk"
   ]
 }
