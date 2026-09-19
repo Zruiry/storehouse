@@ -1,14 +1,14 @@
 {
-  "versionName": "26.09.08",
-  "versionCode": 260908,
-  "notes": "1. 展开工具结果、思考过程、技能流程时：内容**向下延伸**，收起时收缩回去，页面不再跳动\n2. 已展开的内容**滚动后不再自动收起**（原先滚出屏幕再滚回来就变回折叠态）\n3. 展开区**默认不换行**（JSON / 日志 / smali 按原样对齐），要按宽度读自然语言时点「换行」\n4. 「换行」按钮放在展开按钮左侧、只在展开时出现；展开与换行按钮缩小到与「完成」标签同尺寸",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.08/HookAny-release-v26.09.08.apk",
-  "size": 28621649,
-  "sha256": "81608e66680cd47120cbd92fa0bb0c71801a9878c031b673581a3166c3ca2222",
+  "versionName": "26.09.09",
+  "versionCode": 260909,
+  "notes": "1. 修复：下载更新时点「取消下载」后仍在继续下载——现在取消会立刻断掉连接\n2. 下载中途取消不再被误报成「下载失败」，也不会自动去别的镜像重下一遍\n3. 取消后残留的半成品安装包会被立即清理，不占用存储空间",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.09/HookAny-release-v26.09.09.apk",
+  "size": 28621645,
+  "sha256": "ed0701898592bdfce93963b62eddfa3a9466195e4e13352a167d85c2fe352d90",
   "downloadMirrors": [
-    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.08/HookAny-release-v26.09.08.apk",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.08.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.08.apk",
-    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.08.apk"
+    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.09/HookAny-release-v26.09.09.apk",
+    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.09.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.09.apk",
+    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.09.apk"
   ]
 }
