@@ -1,14 +1,14 @@
 {
-  "versionName": "26.09.10",
-  "versionCode": 260910,
-  "notes": "1. 生成的规则 / 脚本卡片上，「查看全部 / 换行 / 收起」与同行的「复制 / 丢弃 / 保存」统一为同一尺寸\n2. 工具卡片与技能卡片的「展开 / 换行」保持与「完成」标签同高（那两处行首有状态标签）",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.10/HookAny-release-v26.09.10.apk",
-  "size": 28621649,
-  "sha256": "1c984f5ffae290b797214c9508854684275efaeb3caef184f15c098dc870295b",
+  "versionName": "26.09.11",
+  "versionCode": 260911,
+  "notes": "1. 修复 Frida 脚本注入会让目标应用明显卡顿的问题（同一应用重复注入、多份脚本引擎叠加）\n2. 技能库名称与说明重写，与内置工具对齐；新增「APK 分析与改包」技能\n3. 部分系统应用的 Xposed 规则现在能正常生效（此前会一直显示「未检测」）\n4. 从 AI 页切到首页 / 设置再切回来，聊天滚动位置保持不变",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.11/HookAny-release-v26.09.11.apk",
+  "size": 28624473,
+  "sha256": "085b9ab559063f56a73874bb98e03a83e73c7b97340b5d984b64c7e6ccac23fa",
   "downloadMirrors": [
-    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.10/HookAny-release-v26.09.10.apk",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.10.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.10.apk",
-    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.10.apk"
+    "https://ghproxy.net/https://github.com/Zruiry/storehouse/releases/download/hookany-v26.09.11/HookAny-release-v26.09.11.apk",
+    "https://gh-proxy.com/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.11.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.11.apk",
+    "https://raw.githubusercontent.com/Zruiry/storehouse/main/HookAny/HookAny-release-v26.09.11.apk"
   ]
 }
